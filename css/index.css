@@ -1,0 +1,629 @@
+/* ==========================================================================
+   布局
+============================================================================ */
+.g-hd{
+	height: 90px;
+}
+.g-box{
+	width: 1205px;
+	margin: 0 auto;
+}
+@media screen and (max-width: 1205px){
+	.g-box{
+		width: 964px;
+	}
+}
+.g-ft{
+
+	background: #2c3339;
+}
+/* ==========================================================================
+   元件
+============================================================================ */
+.u-icon{
+	display:inline-block;	
+}
+.u-icon-close{
+	background: url(../images/icons/close.png) no-repeat ;
+	width: 9px;
+	height:9px;
+}
+.u-icon-plus{
+	background: url(../images/icons/plus.png) no-repeat ;
+	width: 8px;
+	height:8px;
+}
+.u-icon-check{
+	background: url(../images/icons/check.png) no-repeat ;
+	width: 11px;
+	height:9px;
+}
+.u-icon-magnifiy{
+	background: url(../images/icons/magnifiy.png) no-repeat ;
+	width: 19px;
+	height:19px;
+}
+/* ==========================================================================
+   module:tips
+============================================================================ */
+.m-tips{
+	height: 36px;
+	line-height: 36px;
+	background:#f3f3f3;
+}
+.m-tips .viewnow{
+	color: #39a030;
+}
+/* ==========================================================================
+   module:top
+============================================================================ */
+.m-top{
+	padding:33px 0px 37px 0px;
+	height: 22px;
+}
+.m-top .attention{
+	margin-left: 30px;
+	line-height: 22px;
+}
+.m-top .attention.z-show .hbfo{
+	display: none;
+}
+.m-top .attention.z-hide .dnc{
+	display: none;
+}
+.m-top .dnc a{
+	display: block;
+	width: 55px;
+	background:#21a557;
+	border-radius: 2px;
+	text-align:center;
+	color: #fff;
+}
+.m-top .hbfo {
+	padding:0px 6px;
+	height: 20px;
+	border: 1px solid #efefef;
+	border-radius: 2px;
+	line-height: 20px;
+	background: #f8f8f8;
+}
+.m-top .hbfo:hover{
+	background-color: #fff;
+}
+.m-top .cancel{
+	color: #999999;
+}
+.m-top .info{
+	color:#333333;
+}
+.m-top .interval{
+	color:#cccccc;
+} 
+.m-top .cancel:hover{
+	color:#21a557;
+	text-decoration:underline;
+}
+.m-top .num{
+	margin-left: 15px;
+	color: #666;
+}
+.m-top .nav{
+	font-size: 16px;
+}
+
+.m-top .nav .search,.m-top .nav .netease{
+	margin-left: 0px;
+}
+.m-top .netease a:hover{
+	color:#39a030;
+}
+.m-top .nav .search{
+	margin:0px 14px 0px 30px;
+}
+.m-top .nav li{
+	display: inline-block;
+	float: left;
+	margin-left: 55px;
+}
+.m-top .search .u-icon-magnifiy:hover{
+	background: url(../images/icons/magnifiy-hover.png) no-repeat ;
+}
+/* ==========================================================================
+   module:sld
+============================================================================ */
+.m-sld {
+	height: 376px;
+}
+.m-sld .imgs a{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+.m-sld .imgs .top{
+	z-index: 1000;
+}
+.m-sld .imgs img{
+
+	height: 100%;
+	width: 100%;
+}
+.m-sld .img{
+	height: 100%;
+	width: 100%;
+}
+.m-sld .imgs{
+	position: relative;
+	height: 100%;
+	overflow: hidden;
+}
+
+.m-sld .dot{
+	z-index: 2000;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	text-align: center;
+}
+.m-sld .dot span{
+	display: inline-block;
+	margin-right: 10px;
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	background: #000;
+}
+.m-sld .dot span.z-show{
+	background:#fff;
+}
+/* ==========================================================================
+   module:snav
+============================================================================ */
+.m-snav ul{
+	height: 176px;
+	margin-left: -80px;
+}
+.m-snav li {
+	float: left;
+	width: 33.33%;
+	padding-left: 80px;
+    box-sizing: border-box;
+}
+.m-snav .logo{
+	float: left;
+	height: 80px;
+	width: 80px;
+	border-radius:50px;
+	background:#39a030  no-repeat center;
+}
+.m-snav .logo-1{
+	background-image:url("../images/icons/opnCrs.png") ;
+}
+.m-snav .logo-2{
+	background-image:url("../images/icons/cldClass.png") ;
+}
+.m-snav .logo-3{
+	background-image:url("../images/icons/mooc.png") ;
+}
+.m-snav .explain{
+	margin-left: 100px;
+	font-size:14px;
+}
+.m-snav .tt{
+	font-size: 22px;
+	font-weight: 300;
+}
+.m-snav .info{
+	margin:20px 0px;
+	line-height: 24px;
+	color: #666;
+}
+.m-snav .more{
+	color: #39a030;
+}
+.m-snav .more:hover{
+	color:#39a030;
+	text-decoration:underline;
+}
+
+
+.m-ftbd{
+	background:  #F8F8F8;
+}
+/* ==========================================================================
+   module:snav
+============================================================================ */
+.m-imgs{
+	height: 220px;
+	background: url("../images/xAxisPic.jpg") no-repeat scroll center top;
+}
+/* ==========================================================================
+   module:coursebd
+============================================================================ */
+.m-coursebd{
+	padding: 80px 0px 120px;
+}
+.m-coursebd .nav{
+	margin-bottom: 20px;
+	height: 50px;
+}
+.m-coursebd .nav li{
+	float: left;
+}
+.m-coursebd .nav li a{
+	display: block;
+	font-size:20px;
+	padding: 13px 60px;
+	box-shadow: 0px 1px 0px 0px #d4d3d3;
+	border: 1px solid #D4D3D3;
+}
+.m-coursebd .nav li a:hover , .m-coursebd .nav li a.z-crl{
+	background-color: #3E9E37;
+	color: #FFF;
+}
+.m-coursebd .main{
+	float: left;
+	width: 980px; 
+}
+@media screen and (max-width: 1205px){
+	.m-coursebd .main{
+		width: 735px; 
+	}
+}
+.m-coursebd .page-1{
+	margin-right: 20px;
+}
+.m-coursebd .courselist{
+	position: relative;
+}
+.m-coursebd  .suspend_course{
+	position: absolute;
+	top: -10px;
+	left: 0px;
+	width: 475px;
+	background: #fff;
+	border: 1px solid #d0cfd0;
+
+}
+
+.m-coursebd  .suspend_course_main{
+	height: 125px;
+	padding: 10px;
+	color: #666;
+}
+.m-coursebd  .suspend_course_main .logo{
+	width: 221px;
+	height: 123px;
+	float: left;
+} 
+.m-coursebd  .suspend_course_main .tt{
+	margin-top: 5px;
+	font-size: 18px;
+	color: #333;
+	width: 214px;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;	
+}
+.m-coursebd  .suspend_course_main .pnum{
+	margin:16px 0px;
+	padding-left: 16px;
+	background: url(../images/icons/people.png) no-repeat;
+
+}
+.m-coursebd  .suspend_course_main .autor{
+	margin-bottom: 10px;
+	width: 214px;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.m-coursebd  .suspend_course_main .tt{
+	margin-top: 5px;
+	font-size: 18px;
+	color: #333;
+}
+.m-coursebd  .suspend_course_main .tt{
+	margin-top: 5px;
+	font-size: 18px;
+	color: #333;
+}
+.m-coursebd  .suspend_course_main .info{
+	float: left;
+	margin-left:20px;
+}
+.m-coursebd  .suspend_course_introduce{
+	margin-top: 10px;
+	padding: 22px 33px 23px 20px;
+	color: #666;
+	line-height: 25px;
+	font-size: 14px;
+	overflow: hidden;
+	background: #f8f8f8;
+}
+.m-coursebd .courselist li{
+	float: left;
+}
+.m-coursebd .courselist li a{
+	display: block;
+	padding: 1px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	height: 230px;
+	width: 220.8px;
+	border: 1px solid #ebebeb;
+	box-shadow: 0px 1px 1px 0px #f1f1f1;
+	background: #fff;
+	color: #333;
+}
+.m-coursebd .courselist li a:hover{
+	color: #39a030;
+}
+.m-coursebd .courselist li .infoarea{
+	margin:10px 5px;
+
+}
+.m-coursebd .courselist li .logo{
+	width: 221px;
+	height: 123px;
+}
+.m-coursebd .courselist li .tt{
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.m-coursebd .courselist li .writer{
+	margin-top:10px;
+	color: #999;
+}
+.m-coursebd .courselist li .pnum{
+	display: inline-block;
+    margin-top: 10px;
+    padding: 3px 5px 4px 18px;
+    max-width: 50px;
+    height: 8px;
+    font: 8px;
+    color: #999;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    background: url(../images/icons/people.png) no-repeat;
+    background-position: 4px 3px;
+}
+.m-coursebd .courselist li .price{
+	margin-top:10px;
+	color: #ff3f00;
+}
+
+.m-coursebd .side{
+	width: 225px;
+	float: right;
+}
+
+.m-jsbox {
+	border: 1px solid #D4D3D3;
+	background: #FFF;
+}
+
+.m-jsbox .tt{
+	padding: 20px 0px 20px 20px;
+	font: 16px/16px "Microsoft YaHei";
+	color: #333;
+	border-bottom: 1px solid #D4D3D3;
+}
+.m-jsbox .bd{
+	padding: 20px 14px  20px 20px;
+}
+.m-jsbox-1 .bd{
+	overflow: hidden;
+	height:680px;
+}
+.m-jgjs .info{
+	margin-bottom:10px;
+	font-size: 14px;
+	color: #666;
+}
+.m-rmph{
+	height: 680px;
+	overflow: hidden;
+}
+.m-rmph li{
+
+	margin-bottom: 20px;
+	height: 50px;
+}
+.m-rmph li img{
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-right: 12px;
+}
+.m-rmph li h2{
+	margin-bottom: 10px;
+	font-size: 14px;
+	color: #333;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;	
+}
+.m-rmph li span{
+	padding-left:17px;
+	color: #999;
+	background: url(../images/icons/people.png) no-repeat;
+}
+/* ==========================================================================
+   module:page
+============================================================================ */
+.m-page{
+	height: 20px;
+}
+.m-page li{
+	float: left;
+} 
+.m-page li a{
+	display: block;
+	width: 14px;
+	height: 16px;
+	margin-left: 10px;
+	padding-top: 4px;
+	padding-left: 6px;
+	font: 12px/12px "Microsoft YaHei";
+}
+.m-page li a.pre, .m-page li a.next{
+	width: 20px;
+	height: 16px;
+	padding-left: 10px;
+	padding-top: 4px;
+}
+.m-page li a.z-sel{
+	color: #fff;
+	background-color: #9FD7B2;
+}
+.m-page li a.z-crl{
+	color: #39a030;
+}
+.m-page li a:hover{
+	color: #fff;
+	background-color: #9FD7B2;
+	cursor: pointer;
+}
+/* ==========================================================================
+   module:ft
+============================================================================ */
+.m-ft{
+	height: 100px;
+    padding: 80px 0px;
+	color: #a2a4a5;
+	font-size: 12.5px;
+
+}
+.m-ft .wrap{
+	height: 100%;
+	width: 964px;
+	margin-left: 50px;
+}
+.m-ft .logoinfo{
+	float: left;
+	width: 542px;
+	margin-top: 10px;
+}
+.m-ft .beian{
+	margin-top: 30px;
+}
+.m-ft .beian2{
+	margin-top: 15px;
+}
+.m-ft .info{
+	float: left;
+}
+.m-ft .info-1{
+	width: 210px;
+}
+.m-ft .info-2{
+	width: 132px;
+}
+.m-ft .info-3{
+	width: 68px;
+}
+.m-ft .info li{
+	margin-top:15px;
+}
+.m-ft .info  a{
+	font-size: 14.58px;
+	color: #a2a4a5;
+}
+.m-ft .info li a:hover{
+text-decoration:underline;
+}
+
+
+.m-ft .weibo{
+	background: url(../images/icons/weibo.png) no-repeat;
+    background-position: 40px;
+}
+@media screen and (max-width: 1205px){
+	.m-ft .wrap{
+		margin-left: 0px;
+	}
+}
+/* ==========================================================================
+   module:modal
+============================================================================ */
+.m-modal{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	z-index: 9999;
+}
+.m-modal .close{
+	font-size: 14px;
+	font-weight: 600;
+	text-align: right;
+}
+.m-modal .bd{
+	padding:10px 8px;
+	position: absolute;	
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	background-color: #fff;
+}
+.m-modal .close .closebtn{
+	cursor: pointer;
+}
+.m-modal .close .closebtn:hover{
+	background-color: #ddd;
+}
+/* ==========================================================================
+   module:login
+============================================================================ */
+.m-login{
+	margin:2px 42px 28px 32px;
+}
+.m-login .tt{
+	margin-bottom: 22px;
+	font-size:18px;
+	color: #444;
+}
+.m-login from input{
+	display: block;
+	padding: 15px 0 15px 10px;
+	margin-bottom: 15px;
+	width: 284px;
+	font-size: 16px;
+	background-color: #fafafa;
+	border: 1px solid #f1f1f1;
+	box-shadow: inset 1px 1px 2px #ccc;
+}
+.m-login from input.error{
+	border: 1px solid #FF3939;
+}
+.m-login .submit{
+	margin-top: 30px; 	
+	display: block;
+	width: 295px;
+	height: 48px;
+	line-height: 48px;
+	background: radial-gradient(closest-side, #25ad48, #14952e);
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+	box-shadow: 2px 3px 0px #d5e3da;
+}
+/* ==========================================================================
+   module:video
+============================================================================ */
+.m-video{
+	margin:2px 22px 28px 26px;
+}
+.m-video .tt{
+	margin-bottom: 20px;
+	font-size: 18px;
+	color: #444;
+}
+.m-video .video{
+	width: 100%;
+}
